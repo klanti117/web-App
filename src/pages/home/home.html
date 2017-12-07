@@ -1,0 +1,41 @@
+<!--added for splash screen -->
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/imgs/logo.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      WiCS
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager>
+
+  <ion-slide >
+  	<img src="assets/imgs/image1.jpg" />
+    <h2>Ada Lovelace</h2>
+    <p> English mathematician and writer, Ada Lovelace is widely regarded as the founder of scientific computing. In 1843, she published instructions for the world’s first algorithm intended to be processed by a computer. Although the computer wasn’t built until the 21stcentury, her work earned her the title of the first computer programmer in history. </p>
+  </ion-slide>
+
+  <ion-slide >
+  	<img src="assets/imgs/image2.jpg" />
+    <h2>Grace Hopper </h2>
+	<p>was not only one of the first programmers, but she was also the first woman to graduate from Yale with a Ph.D. in mathematics and the first woman to reach the rank of Admiral in the U.S. Navy. </p>
+  </ion-slide>
+
+  <ion-slide >
+  	<img src="assets/imgs/image3.jpg" />
+  	<h2>Margaret Hamilton</h2>
+    <p> Hamilton invented the software that allowed the computers on Apollo 11 to prioritize important tasks. Without that software, it’s likely that the mission would have failed. 
+    </p>
+  </ion-slide>
+
+</ion-slides>
+</ion-content>
